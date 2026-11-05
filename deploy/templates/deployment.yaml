@@ -72,7 +72,7 @@ spec:
       #
       # cluster-stack.yaml taints the server NoSchedule, which is the primary
       # mechanism, but this is deliberately belt-and-braces: clusters
-      # provisioned before that taint existed do NOT have it (fiftyfivetech,
+      # provisioned before that taint existed do NOT have it (acmecorporate,
       # 54 days old, reports TAINTS <none>), and a taint is node-side config
       # we cannot fix without re-provisioning. The control-plane LABEL is
       # present on every k3s server regardless, so keying off it protects old
